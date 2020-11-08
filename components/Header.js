@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import Deersvg2 from '../public/deersvg2.svg';
+
+import Deersvg from '../public/deer.svg';
 
 
 
@@ -13,7 +13,7 @@ const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div>
 </div>
-        <div><i></i><Deersvg2 />
+        <div><Deersvg />
             <div className="inner">
             
                 <h1 className="grayscale">Hill City Deer Barriers</h1>
