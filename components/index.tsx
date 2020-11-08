@@ -1,0 +1,1 @@
+export { default as Deersvg2 } from './Deersvg2'
