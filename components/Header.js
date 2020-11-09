@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
-import Deer from '../public/deer.svg';
+import Deer from '../public/vercel.svg';
 
 
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
-       <div><Deer /></div>
+       <div className="deer"><Deer /></div>
         <div className="content">
             <div className="inner">
                 <h1>Hill City Deer Barriers</h1>

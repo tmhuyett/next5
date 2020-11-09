@@ -33,9 +33,9 @@ module.exports = withSvgr({
     )
     return config
   },
-  // exportPathMap: function(defaultPathMap) {
-  //   return {
-  //     '/': { page: '/' }
-  //   }
-  // }
+   exportPathMap: function(defaultPathMap) {
+     return {
+       '/': { page: '/' }
+     }
+   }
 });
